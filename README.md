@@ -1,2 +1,0 @@
-# nolhanggo
-nolhang fuxx
