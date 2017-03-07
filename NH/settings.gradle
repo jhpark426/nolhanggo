@@ -1,1 +1,1 @@
-include ':app', ':NHARMODULE'
+include ':app', ':NHARMODULE', ':NHARMODULE2'

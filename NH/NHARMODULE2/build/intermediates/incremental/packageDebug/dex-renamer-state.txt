@@ -1,0 +1,7 @@
+#Tue Mar 07 14:46:28 KST 2017
+base.0=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_26f30dd05a7400a033e10b3793c4bbb5973df869
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_43205be51091de08370df619d28e5c69783ffc8b\\classes.dex
+base.1=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_43205be51091de08370df619d28e5c69783ffc8b
+file.0=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE2\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_26f30dd05a7400a033e10b3793c4bbb5973df869\\classes.dex

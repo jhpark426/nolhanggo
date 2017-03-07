@@ -9,6 +9,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/NHARMODULE" />
+            <option value="$PROJECT_DIR$/NHARMODULE2" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>

@@ -1,10 +1,10 @@
-#Mon Mar 06 04:06:17 KST 2017
+#Tue Mar 07 14:08:16 KST 2017
 renamed.2=classes.dex
 renamed.1=classes2.dex
 renamed.0=classes3.dex
-base.2=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\unity-classes_78c87a3de5693c5c1a617535c2c5dceea59e905c
-base.1=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\VuforiaUnityPlayer_d9db7b89e8b17f87291c0361cf3e499c1cbbd794
-base.0=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Vuforia_05871758233eb81906f57d3a3fc34b96733ca3f1
-file.2=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\unity-classes_78c87a3de5693c5c1a617535c2c5dceea59e905c\\classes.dex
-file.1=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\VuforiaUnityPlayer_d9db7b89e8b17f87291c0361cf3e499c1cbbd794\\classes.dex
-file.0=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Vuforia_05871758233eb81906f57d3a3fc34b96733ca3f1\\classes.dex
+base.2=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\unity-classes_f093029058aad61a6b78fdeff1424f8349f21e6c
+base.1=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\VuforiaUnityPlayer_1174d2d5e3be69998c05244b5c1904aca6dabdfa
+base.0=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Vuforia_1fd002ce09585c1e8674009cd74b4492ef26ed33
+file.2=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\unity-classes_f093029058aad61a6b78fdeff1424f8349f21e6c\\classes.dex
+file.1=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\VuforiaUnityPlayer_1174d2d5e3be69998c05244b5c1904aca6dabdfa\\classes.dex
+file.0=C\:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\NHARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\2\\Vuforia_1fd002ce09585c1e8674009cd74b4492ef26ed33\\classes.dex
