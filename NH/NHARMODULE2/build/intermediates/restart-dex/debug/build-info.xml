@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1488869041805"
+    timestamp="1488869701517"
     token="-6148073759060357559"
     verifier="FULL_BUILD_REQUESTED" >
 
@@ -62,7 +62,7 @@
 
     <build
         build-mode="FULL"
-        timestamp="1488869041805"
+        timestamp="1488869701517"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\KwangHo\Documents\GitHub\nolhanggo\NH\NHARMODULE2\build\intermediates\split-apk\debug\slices\slice_1.apk"

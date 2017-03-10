@@ -17,7 +17,7 @@ public class Home_Main extends AppCompatActivity {
     public void onClick(View v){
         Intent intent = new Intent();
         intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        intent.setComponent(new ComponentName("com.szb.NHARMODULE2", "com.szb.NHARMODULE2.UnityPlayerNativeActivity"));
+        intent.setComponent(new ComponentName("com.szb.NHARMODULE", "com.szb.NHARMODULE.UnityPlayerNativeActivity"));
         startActivity(intent);
     }
 }

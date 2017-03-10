@@ -1,4 +1,4 @@
-package com.szb.NHARMODULE;
+package com.szb.NHARMODULE2
 
 import com.unity3d.player.*;
 import android.app.NativeActivity;
