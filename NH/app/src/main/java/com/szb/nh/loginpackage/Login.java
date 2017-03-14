@@ -14,33 +14,35 @@ import android.util.Log;
 
 import com.szb.nh.Home_Main;
 import com.szb.nh.R;
+import com.szb.nh.model.database.Player;
+import com.szb.nh.model.retrofit.PlayerDTO;
 
 public class Login extends AppCompatActivity {
 
     Button btnSignin;
-     teamManager;
+    LoginManager loginmanager;
     String loginid = "jpark426";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
-        teamManager = TeamManager.getInstance();
+        loginmanager = LoginManager.getInstance();
 
         NetworkClient networkClient = NetworkClient.getInstance("http://172.30.1.60:2");
 
-        networkClient.login(loginid,new Callback<TeamDTO>() {
+        networkClient.login(loginid,new Callback<PlayerDTO>() {
             @Override
-            public void onResponse(Call<TeamDTO> call, Response<TeamDTO> response) {
+            public void onResponse(Call<PlayerDTO> call, Response<PlayerDTO> response) {
                 switch (response.code()){
                     case 200:
                         //json 데이터를 파싱하는 것을 수월하게 해준다.
 
-                        TeamDTO teamDTO = response.body();
+                        PlayerDTO teamDTO = response.body();
 
                         Log.e("TAG", "team dto : " + teamDTO.toString());
                         // teamDTO를 이용하여 realm에 team 데이터를 생성한다.
-                        teamManager.create(teamDTO);
+                        loginmanager.create(teamDTO);
                         break;
 
                     default:
@@ -49,13 +51,13 @@ public class Login extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<TeamDTO> call, Throwable t) {
+            public void onFailure(Call<PlayerDTO> call, Throwable t) {
                 Log.e("ACC","s?? " + t.getMessage());
 
             }
         });
 
-        Log.e("TAG", "login???? : " + teamManager.toString());
+        Log.e("TAG", "login???? : " + loginmanager.toString());
 
   btnSignin = (Button)findViewById(R.id.LoginSignin);
         btnSignin.setOnClickListener(new View.OnClickListener() {
