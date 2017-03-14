@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_banner.png",
-        "source": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\app_banner.png",
+        "source": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\src\\main\\res\\drawable-xhdpi\\app_banner.png"
+    },
+    {
+        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/merged/debug/drawable-xhdpi/app_banner.png",
+        "source": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/res/drawable-xhdpi/app_banner.png"
     }
 ]

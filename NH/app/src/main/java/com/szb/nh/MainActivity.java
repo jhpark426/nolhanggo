@@ -10,7 +10,7 @@ import android.widget.Button;
 import com.szb.nh.loginpackage.Login;
 
 public class MainActivity extends AppCompatActivity {
-
+    private Intent intent;
     Button btnLogin, btnSignup;
 
     @Override
@@ -23,10 +23,13 @@ public class MainActivity extends AppCompatActivity {
         btnLogin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                Intent i = new Intent();
-                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-                i.setComponent(new ComponentName("com.szb.nh.loginpackage", "com.szb.nh.loginpackage.Login"));
-                startActivity(i);
+//                Intent i = new Intent();
+//                i.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+//                i.setComponent(new ComponentName("com.szb.nh.loginpackage", "com.szb.nh.loginpackage.Login"));
+//                startActivity(i);
+//                finish();
+                intent = new Intent(MainActivity.this, Login.class);
+                startActivity(intent);
                 finish();
             }
         });

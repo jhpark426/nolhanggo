@@ -2,23 +2,31 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.szb.nh">
     <uses-permission android:name="android.permission.INTERNET" />
+
     //네트워크 통신을 위한 인터넷 permission 허용
     <application
+        android:name=".RealmInit"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".MainActivity">
+
+        <activity
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".loginpackage.Login" />
-        <activity android:name=".Home_Main"></activity>
+
+        <activity
+            android:name=".loginpackage.Login"></activity>
+        <activity
+            android:name=".Home_Main"></activity>
+
     </application>
 
 </manifest>

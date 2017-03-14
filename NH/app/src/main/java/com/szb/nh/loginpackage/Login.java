@@ -16,6 +16,7 @@ import com.szb.nh.Home_Main;
 import com.szb.nh.R;
 import com.szb.nh.model.database.Player;
 import com.szb.nh.model.retrofit.PlayerDTO;
+import com.szb.nh.network.NetworkClient;
 
 public class Login extends AppCompatActivity {
 
@@ -26,10 +27,12 @@ public class Login extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.e("ACC","TEsadfsdfadfadsfa IS !;asldfjl;dasafjdals;jfl;kdsjl;dakjfadls;f;al!! ");
         setContentView(R.layout.activity_login);
+        Log.e("ACC","TEAM INFORMATION IS !;asldfjl;dsafjdals;jfl;kdsjl;dakjfadls;f;al!! ");
         loginmanager = LoginManager.getInstance();
 
-        NetworkClient networkClient = NetworkClient.getInstance("http://172.30.1.60:2");
+        NetworkClient networkClient = NetworkClient.getInstance("http://172.30.1.60:5000");
 
         networkClient.login(loginid,new Callback<PlayerDTO>() {
             @Override
@@ -38,11 +41,11 @@ public class Login extends AppCompatActivity {
                     case 200:
                         //json 데이터를 파싱하는 것을 수월하게 해준다.
 
-                        PlayerDTO teamDTO = response.body();
+                        PlayerDTO playerDTO = response.body();
 
-                        Log.e("TAG", "team dto : " + teamDTO.toString());
+                        Log.e("TAG", "team dto : " + playerDTO.toString());
                         // teamDTO를 이용하여 realm에 team 데이터를 생성한다.
-                        loginmanager.create(teamDTO);
+                        loginmanager.create(playerDTO);
                         break;
 
                     default:

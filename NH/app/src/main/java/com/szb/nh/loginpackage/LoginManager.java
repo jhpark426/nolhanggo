@@ -4,7 +4,7 @@ package com.szb.nh.loginpackage;
  * Created by cwh62 on 2017-03-14.
  */
 import android.util.Log;
-
+import com.szb.nh.RealmInit;
 import com.szb.nh.model.database.Player;
 import com.szb.nh.model.retrofit.PlayerDTO;
 
@@ -39,9 +39,9 @@ public class LoginManager {
     public LoginManager(){
 
         realm = Realm.getDefaultInstance();
-        Player team = getTeam();
-        if(team != null){
-            setTeam(team);
+        Player player = getPlayer();
+        if(player != null){
+            setPlayer(player);
         }
         Log.e("ACC","TEAM MANAGER PROPERTY !!!!!             "+this.toString());
     }
@@ -53,15 +53,15 @@ public class LoginManager {
         return instance;
     }
 
-    public void setTeam(Player team){
-        this.id = team.getId();
-        this.password = team.getPass();
+    public void setPlayer(Player player){
+        this.id = player.getId();
+        this.password = player.getPass();
     }
 
-    public Player getTeam(){
-        Player team = realm.where(Player.class).findFirst();
-        Log.e("ACC","TEAM INFORMATION IS !!! "+team);
-        return team;
+    public Player getPlayer(){
+        Player player = realm.where(Player.class).findFirst();
+        Log.e("ACC","TEAM INFORMATION IS !!! "+player);
+        return player;
     }
 
 
@@ -79,7 +79,7 @@ public class LoginManager {
                 }
             }
         });
-        setTeam(player);
+        setPlayer(player);
     }
 
     public void deletePlayer(){
