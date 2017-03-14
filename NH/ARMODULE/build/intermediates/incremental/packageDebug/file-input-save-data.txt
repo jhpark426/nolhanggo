@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Mon Mar 13 22:55:20 KST 2017
+#Tue Mar 14 15:37:19 KST 2017
 25.file=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\folders\\2000\\1f\\main\\lib\\armeabi-v7a\\libmain.so
 25.base=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\transforms\\mergeJniLibs\\debug\\folders\\2000\\1f\\main
 22.set=ASSET
