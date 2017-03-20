@@ -6,9 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 
-/**
- * @deprecated Use UnityPlayerActivity instead.
- */
+
 public class UnityPlayerProxyActivity extends Activity
 {
 	@Override protected void onCreate (Bundle savedInstanceState)

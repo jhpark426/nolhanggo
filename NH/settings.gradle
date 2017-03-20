@@ -1,1 +1,1 @@
-include ':app', ':ARMODULE'
+include ':ARMODULE'
