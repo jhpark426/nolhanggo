@@ -30,7 +30,7 @@ public class Login extends Activity {
         Log.e("ACC","TEAM INFORMATION IS !;asldfjl;dsafjdals;jfl;kdsjl;dakjfadls;f;al!! ");
         loginmanager = LoginManager.getInstance();
 
-        NetworkClient networkClient = NetworkClient.getInstance("http://172.30.1.60:5000");
+        NetworkClient networkClient = NetworkClient.getInstance("http://117.16.197.48:5000");
 
         networkClient.login(loginid,new Callback<PlayerDTO>() {
             @Override

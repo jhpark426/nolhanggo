@@ -3,8 +3,6 @@ package com.szb.ARMODULE;
 import android.os.Bundle;
 import android.util.Log;
 
-import com.szb.ARMODULE.UnityPlayerActivity;
-
 public class GameActivity extends UnityPlayerActivity {
     @Override
     protected void onCreate(Bundle arg0) {

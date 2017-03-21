@@ -1,18 +1,30 @@
 package com.szb.ARMODULE;
 
+import com.szb.ARMODULE.loginpackage.LoginManager;
+import com.szb.ARMODULE.model.retrofit.PlayerDTO;
+import com.szb.ARMODULE.network.NetworkClient;
 import com.unity3d.player.*;
 import android.app.Activity;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.KeyEvent;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
 
 public class UnityPlayerActivity extends Activity
 {
+	Button btnSignin;
+	LoginManager loginmanager;
+	String loginid = "jpark426";
 	protected UnityPlayer mUnityPlayer; // don't change the name of this variable; referenced from native code
 
 	// Setup activity layout
@@ -29,8 +41,39 @@ public class UnityPlayerActivity extends Activity
 	}
 
 	protected void onTouch ()
-	{
-		UnityPlayer.UnitySendMessage("Cube","Q","0");
+		{
+		loginmanager = LoginManager.getInstance();
+
+		NetworkClient networkClient = NetworkClient.getInstance("http://117.16.197.48:5000");
+
+		networkClient.login(loginid,new Callback<PlayerDTO>() {
+			@Override
+			public void onResponse(Call<PlayerDTO> call, Response<PlayerDTO> response) {
+				switch (response.code()){
+					case 200:
+						//json 데이터를 파싱하는 것을 수월하게 해준다.
+
+						PlayerDTO playerDTO = response.body();
+
+						Log.e("TAG", "team dto : " + playerDTO.toString());
+						// teamDTO를 이용하여 realm에 team 데이터를 생성한다.
+						loginmanager.create(playerDTO);
+						break;
+
+					default:
+						break;
+				}
+			}
+
+			@Override
+			public void onFailure(Call<PlayerDTO> call, Throwable t) {
+				Log.e("ACC","s?? " + t.getMessage());
+
+			}
+		});
+
+		Log.e("TAG", "login???? : " + loginmanager.toString());
+		//UnityPlayer.UnitySendMessage("Cube","Q","0");
 
 	}
 	// Quit Unity
