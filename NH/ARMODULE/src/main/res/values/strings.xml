@@ -9,4 +9,5 @@
     <string name="Name">Name</string>
     <string name="Submit">Submit</string>
     <string name="Signin">Signin</string>
+    <string name="please_check_id">아이디를 확인해주세요</string>
 </resources>

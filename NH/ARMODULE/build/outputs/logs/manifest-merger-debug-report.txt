@@ -1,216 +1,216 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:70-96
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:70-96
 	android:versionName
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:145-170
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:145-170
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:171-194
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:171-194
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:11-69
 	android:installLocation
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:195-235
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:195-235
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:97-144
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:2:97-144
 uses-sdk
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:3:5-74
-MERGED from [io.realm:realm-android-library:3.0.0] C:\Users\cwh62\.android\build-cache\55a41cbdf3532acaf299a0743be98c8a800c6642\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] C:\Users\cwh62\.android\build-cache\2fcbe5ccd3493eea0e283fdcd807cde14a344c95\output\AndroidManifest.xml:7:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\cwh62\.android\build-cache\a6eaa2679b87c133e929b3e9ba1217d2e9e5cb4f\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] C:\Users\cwh62\.android\build-cache\3f9be1a97c4935c2539aca56786ce95d90ea0086\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\cwh62\.android\build-cache\a1803ae55132452f4b3baadfe9b14bcb0906eb45\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\cwh62\.android\build-cache\54d5ae129271720ed45b6909caa1eaa20228c8ca\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\cwh62\.android\build-cache\7abba350743001046ace606218fddd93c618a82a\output\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] C:\Users\cwh62\.android\build-cache\c4686fcec18a71e249031d5d2fbc31f83be9d312\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] C:\Users\cwh62\.android\build-cache\164664a9dbfb2b32b4dca184fd5b2cd0331fb5be\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\cwh62\.android\build-cache\c8ee62cdfddfad7ce60b3b2a9d3661024bb36e2a\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\cwh62\.android\build-cache\859c49afaa9d8b31c6a79fcf83b63199f0c7f373\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\cwh62\.android\build-cache\74208623068834d6e15a9668434b5379dc384b5b\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\cwh62\.android\build-cache\d0fec50868759dd7b199fe0093ead53d0475b9fd\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\cwh62\.android\build-cache\31dc8d7db60322f9e5955df829f280b83b22a83a\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\cwh62\.android\build-cache\98fe9365feedb29ae51f63cb91c5c2c3095d28f0\output\AndroidManifest.xml:21:5-23:58
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:3:5-74
+MERGED from [io.realm:realm-android-library:3.0.0] /Users/HwiRiRic/.android/build-cache/d663facb6b9fe901c763de786b93bb7078b3a2e7/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/HwiRiRic/.android/build-cache/e924b98c2e8761dc248e9c820215a94d0806ff28/output/AndroidManifest.xml:7:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/HwiRiRic/.android/build-cache/9d3fdb94d76a64ec15717e8b8f84775c922be8ab/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/26bafa1d9bc6c9c802f6cbd6e1602cdfa3f77bb3/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/938b575efd1c62bd31f38d46b6b70203465922c6/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/da38fa800e2318368bc3116ecb0bff36a19e6668/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/bbee3ea5c689225962f62d8ca48b8ffe1cf94bd9/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/d07e2dabe022f39f4a3296c8d5c21f9131adc569/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/09d7cc5cff59de6d07a495086b61ebc02738ed1c/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/804eef476fb1a6b24f48e7302ae942cb88598b56/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/a4c3a90135dc4b03d178751257dfeb51ecb2c351/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/9be0df6463b0ef36cd5474036f4aab2f4236ec66/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/e55c01638fa22e3fa109759c2051fcdf85787536/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/0c156d1e3e46346ba4b8ac77f870bc9aa428506c/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] C:\Users\cwh62\.android\build-cache\3f9be1a97c4935c2539aca56786ce95d90ea0086\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:3:42-71
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:3:42-71
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
+		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:3:15-41
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:3:15-41
 uses-feature#android.hardware.camera
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:4:5-60
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:4:5-60
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:4:19-57
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:4:19-57
 supports-screens
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:5-165
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:5-165
 	android:largeScreens
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:80-107
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:80-107
 	android:smallScreens
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:23-50
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:23-50
 	android:normalScreens
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:51-79
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:51-79
 	android:xlargeScreens
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:108-136
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:108-136
 	android:anyDensity
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:5:137-162
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:5:137-162
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:6:5-67
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:6:5-67
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:6:22-64
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:6:22-64
 uses-permission#android.permission.CAMERA
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:7:5-65
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:7:5-65
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:7:22-62
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:7:22-62
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:8:5-79
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:8:5-79
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:8:22-76
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:8:22-76
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:9:5-81
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:9:5-81
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:9:22-78
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:9:22-78
 application
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:5-38:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.1] C:\Users\cwh62\.android\build-cache\a6eaa2679b87c133e929b3e9ba1217d2e9e5cb4f\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] C:\Users\cwh62\.android\build-cache\3f9be1a97c4935c2539aca56786ce95d90ea0086\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\cwh62\.android\build-cache\a1803ae55132452f4b3baadfe9b14bcb0906eb45\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\cwh62\.android\build-cache\54d5ae129271720ed45b6909caa1eaa20228c8ca\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] C:\Users\cwh62\.android\build-cache\7abba350743001046ace606218fddd93c618a82a\output\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] C:\Users\cwh62\.android\build-cache\164664a9dbfb2b32b4dca184fd5b2cd0331fb5be\output\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] C:\Users\cwh62\.android\build-cache\c8ee62cdfddfad7ce60b3b2a9d3661024bb36e2a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] C:\Users\cwh62\.android\build-cache\859c49afaa9d8b31c6a79fcf83b63199f0c7f373\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] C:\Users\cwh62\.android\build-cache\74208623068834d6e15a9668434b5379dc384b5b\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] C:\Users\cwh62\.android\build-cache\d0fec50868759dd7b199fe0093ead53d0475b9fd\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] C:\Users\cwh62\.android\build-cache\31dc8d7db60322f9e5955df829f280b83b22a83a\output\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] C:\Users\cwh62\.android\build-cache\98fe9365feedb29ae51f63cb91c5c2c3095d28f0\output\AndroidManifest.xml:25:5-20
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:5-38:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/HwiRiRic/.android/build-cache/9d3fdb94d76a64ec15717e8b8f84775c922be8ab/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/26bafa1d9bc6c9c802f6cbd6e1602cdfa3f77bb3/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/938b575efd1c62bd31f38d46b6b70203465922c6/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/da38fa800e2318368bc3116ecb0bff36a19e6668/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/d07e2dabe022f39f4a3296c8d5c21f9131adc569/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/09d7cc5cff59de6d07a495086b61ebc02738ed1c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/804eef476fb1a6b24f48e7302ae942cb88598b56/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/a4c3a90135dc4b03d178751257dfeb51ecb2c351/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/9be0df6463b0ef36cd5474036f4aab2f4236ec66/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/e55c01638fa22e3fa109759c2051fcdf85787536/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/0c156d1e3e46346ba4b8ac77f870bc9aa428506c/output/AndroidManifest.xml:25:5-20
 	android:label
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:80-112
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:80-112
 	android:icon
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:46-79
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:46-79
 	android:banner
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:194-231
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:194-231
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:113-171
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:113-171
 	android:isGame
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:172-193
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:172-193
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:10:18-45
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:18-45
 activity#com.szb.ARMODULE.UnityPlayerNativeActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:9-14:20
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:9-14:20
 	android:screenOrientation
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:52-90
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:52-90
 	android:label
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:19-51
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:19-51
 	android:launchMode
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:91-122
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:91-122
 	android:configChanges
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:123-280
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:123-280
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:11:281-338
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:11:281-338
 meta-data#unityplayer.UnityActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:12:13-88
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:12:13-88
 	android:value
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:12:65-85
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:12:65-85
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:12:24-64
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:12:24-64
 meta-data#unityplayer.ForwardNativeEventsToDalvik
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:13:13-103
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:13:13-103
 	android:value
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:13:79-100
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:13:79-100
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:13:24-78
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:13:24-78
 activity#com.unity3d.player.VideoPlayer
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:15:9-16:20
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:15:9-16:20
 	android:screenOrientation
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:15:98-134
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:15:98-134
 	android:label
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:15:65-97
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:15:65-97
 	android:configChanges
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:15:135-292
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:15:135-292
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:15:19-64
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:15:19-64
 uses-library#com.ti.s3d
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:22:9-76
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:22:9-76
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:22:49-73
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:22:49-73
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:22:23-48
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:22:23-48
 uses-library#com.osterhoutgroup.api.ext
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:26:9-92
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:26:9-92
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:26:65-89
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:26:65-89
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:26:23-64
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:26:23-64
 activity#com.szb.ARMODULE.loginpackage.Login
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:28:9-116
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:28:9-116
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:28:54-104
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:28:54-104
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:28:19-53
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:28:19-53
 activity#com.szb.ARMODULE.Home_Main
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:29:9-107
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:29:9-107
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:29:45-95
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:29:45-95
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:29:19-44
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:29:19-44
 activity#com.szb.ARMODULE.GameActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:30:9-110
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:30:9-110
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:30:48-98
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:30:48-98
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:30:19-47
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:30:19-47
 activity#com.szb.ARMODULE.MainActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:31:9-37:20
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:31:9-37:20
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:31:48-98
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:31:48-98
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:31:19-47
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:31:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:32:13-36:29
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:32:13-36:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:33:17-69
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:33:17-69
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:33:25-66
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:33:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:35:17-77
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:35:17-77
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:35:27-74
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:35:27-74
 uses-feature#0x00020000
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:39:5-54
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:39:5-54
 	android:glEsVersion
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:39:19-51
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:39:19-51
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:40:5-95
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:40:5-95
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:40:68-92
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:40:68-92
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:40:19-67
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:40:19-67
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:41:5-91
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:41:5-91
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:41:64-88
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:41:64-88
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:41:19-63
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:41:19-63
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:42:5-90
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:42:5-90
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:42:63-87
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:42:63-87
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:42:19-62
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:42:19-62
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:43:5-101
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:43:5-101
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:43:74-98
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:43:74-98
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:43:19-73
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:43:19-73
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:44:5-110
+ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:44:5-110
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:44:83-107
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:44:83-107
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:44:19-82
+		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:44:19-82
