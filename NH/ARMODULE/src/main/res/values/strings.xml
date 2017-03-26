@@ -10,4 +10,6 @@
     <string name="Submit">Submit</string>
     <string name="Signin">Signin</string>
     <string name="please_check_id">아이디를 확인해주세요</string>
+    <string name="open_drawer">open draweropen draweropen draweropen draweropen draweropen drawer</string>
+    <string name="close_drawer">close drawerclose drawerclose drawerclose drawerclose drawer</string>
 </resources>

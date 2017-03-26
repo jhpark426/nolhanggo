@@ -45,7 +45,7 @@ public class Login extends Activity {
             public void onClick(View view) {
                 loginid = loginId.getText().toString();
 
-                networkClient = NetworkClient.getInstance("http://172.20.10.2:5000");
+                networkClient = NetworkClient.getInstance("http://172.30.1.60:5000");
 
                 Log.e("ACC","TEAM id IS !!! "+ loginid);
                 networkClient.login(loginid,new Callback<PlayerDTO>() {
