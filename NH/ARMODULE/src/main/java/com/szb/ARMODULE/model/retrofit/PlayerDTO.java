@@ -8,34 +8,27 @@ import com.google.gson.annotations.SerializedName;
 
 public class PlayerDTO {
     private String id;
-    private String password;
-    private String gender;
+    private String name;
 
-    @SerializedName("achivement_rate")
-    private float achivementrate;
-    private String birth;
+    private String gender;
+    private int age;
+    private int tel;
+
+    @SerializedName("solve_question_count")
+    private int solvequestioncount;
 
     @SerializedName("create_time")
     private int createtime;
 
 
     public String getId() { return id; }
-    public String getPassword() { return password; }
 
     public void setId(String id) {
         this.id = id;
     }
 
-    public void setPassword(String password) {
-        this.password = password;
-    }
-
-    public String getPass() {
-        return password;
-    }
-
     @Override
     public String toString(){
-        return "GameDTO - id:" + this.id + "/pass:"+this.password;
+        return "GameDTO - id:" + this.id + "/pass:";
     }
 }

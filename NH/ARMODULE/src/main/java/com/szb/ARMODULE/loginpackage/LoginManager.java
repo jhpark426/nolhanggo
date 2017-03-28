@@ -14,11 +14,13 @@ import io.realm.exceptions.RealmPrimaryKeyConstraintException;
 
 public class LoginManager {
     private String id;
-    private String password;
-    private String gender;
+    private String name;
 
-    private float achivementrate;
-    private String birth;
+    private String gender;
+    private int age;
+    private int tel;
+
+    private int solvequestioncount;
 
     private int createtime;
 
@@ -30,10 +32,6 @@ public class LoginManager {
 
     public void setId(String id) {
         this.id = id;
-    }
-
-    public String getPass() {
-        return password;
     }
 
 
@@ -56,7 +54,6 @@ public class LoginManager {
 
     public void setPlayer(Player player){
         this.id = player.getId();
-        this.password = player.getPass();
     }
 
     public Player getPlayer(){
@@ -73,7 +70,6 @@ public class LoginManager {
             public void execute(Realm tRealm) {
                 try {
                     player.setId(playerDTO.getId());
-                    player.setPassword(playerDTO.getPassword());
                     realm.copyToRealm(player);
                 } catch (RealmPrimaryKeyConstraintException e){
                     Log.e("debug", e.toString());
@@ -85,7 +81,6 @@ public class LoginManager {
 
     public void deletePlayer(){
         id = "";
-        password = "";
 
         realm.executeTransaction(new Realm.Transaction() {
             @Override
@@ -99,8 +94,6 @@ public class LoginManager {
     public String toString() {
         String content = "";
         content += "team Id ??? "+ id + "\n";
-        content += "pass ??? "+ password + "\n";
-
         return content;
     }
 }
