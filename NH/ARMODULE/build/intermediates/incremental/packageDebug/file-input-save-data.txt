@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Sun Mar 26 02:05:41 KST 2017
+#Tue Mar 28 15:22:16 KST 2017
 210.set=ANDROID_RESOURCE
 282.file=/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/resources-debug.ap_/res/anim/design_snackbar_out.xml
 14.set=ANDROID_RESOURCE
