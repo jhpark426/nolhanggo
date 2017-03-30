@@ -6,29 +6,23 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1490682128656"
+    timestamp="1490857268763"
     token="107342448599670324"
     verifier="FULL_BUILD_REQUESTED" >
 
     <task
         name="javac"
-        duration="1803" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="22" />
+        duration="0" />
     <task
         name="verifier"
-        duration="2" />
+        duration="0" />
 
-    <artifact
-        location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/outputs/apk/ARMODULE-debug.apk"
-        type="SPLIT_MAIN" />
     <artifact
         location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_7.apk"
         type="SPLIT" />
@@ -45,6 +39,9 @@
         location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_1.apk"
         type="SPLIT" />
     <artifact
+        location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_0.apk"
+        type="SPLIT" />
+    <artifact
         location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_5.apk"
         type="SPLIT" />
     <artifact
@@ -59,17 +56,14 @@
     <artifact
         location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_8.apk"
         type="SPLIT" />
+    <artifact
+        location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/outputs/apk/ARMODULE-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1490682128656"
+        timestamp="1490857268763"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/outputs/apk/ARMODULE-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
@@ -86,6 +80,9 @@
             location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
@@ -100,6 +97,9 @@
         <artifact
             location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/outputs/apk/ARMODULE-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

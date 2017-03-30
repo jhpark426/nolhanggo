@@ -1,4 +1,4 @@
-#Tue Mar 28 15:22:16 KST 2017
+#Thu Mar 30 15:59:30 KST 2017
 base.0=/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_d32df6ffc980726a827867d7511f5f3ae8bc1421
 renamed.1=classes.dex
 renamed.0=classes2.dex

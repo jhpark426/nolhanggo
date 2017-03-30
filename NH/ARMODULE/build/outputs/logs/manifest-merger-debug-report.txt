@@ -22,20 +22,20 @@ ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/Andr
 MERGED from [io.realm:realm-android-library:3.0.0] /Users/HwiRiRic/.android/build-cache/d663facb6b9fe901c763de786b93bb7078b3a2e7/output/AndroidManifest.xml:7:5-9:41
 MERGED from [com.getkeepsafe.relinker:relinker:1.2.2] /Users/HwiRiRic/.android/build-cache/e924b98c2e8761dc248e9c820215a94d0806ff28/output/AndroidManifest.xml:7:5-43
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/HwiRiRic/.android/build-cache/9d3fdb94d76a64ec15717e8b8f84775c922be8ab/output/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/26bafa1d9bc6c9c802f6cbd6e1602cdfa3f77bb3/output/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/938b575efd1c62bd31f38d46b6b70203465922c6/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/da38fa800e2318368bc3116ecb0bff36a19e6668/output/AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/bbee3ea5c689225962f62d8ca48b8ffe1cf94bd9/output/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/d07e2dabe022f39f4a3296c8d5c21f9131adc569/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/09d7cc5cff59de6d07a495086b61ebc02738ed1c/output/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/804eef476fb1a6b24f48e7302ae942cb88598b56/output/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/a4c3a90135dc4b03d178751257dfeb51ecb2c351/output/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/9be0df6463b0ef36cd5474036f4aab2f4236ec66/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/e55c01638fa22e3fa109759c2051fcdf85787536/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/0c156d1e3e46346ba4b8ac77f870bc9aa428506c/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/0c5cab0b3728cc31029b26c3840d4994a4957163/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/f117f04cb4845b9d662d5919015691548eab1a06/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/b99950bcdee4b6fece4b9bdbef89a2f51db62458/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/af02c6e9d6f03c0021540dfa1ff8cd033fa4d656/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/a2d5bcc6e453412c10fe61c826a97916462877fd/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/bd332bcc7086b163f4b0099eb3428c0bc4d37477/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/fa930b03480988b5ebce0a5fc9ac42f01812c658/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/91a514e738fd1abd6332d4a1433b507f511fa633/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/963590e199c2d7b358a9a440b7fcf75a9f37cca4/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/c12f21e391900a8140e1519688a66ee60607a5c7/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/e0eaed8780ab032ff268ed0088348a8e5f62eb7f/output/AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/0c5cab0b3728cc31029b26c3840d4994a4957163/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:10:9-38
 		INJECTED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml
@@ -77,17 +77,17 @@ ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/Andr
 application
 ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:27:5-74:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.1] /Users/HwiRiRic/.android/build-cache/9d3fdb94d76a64ec15717e8b8f84775c922be8ab/output/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/922815c3c761a3accfdac95abec6cd6a3a73111b/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/26bafa1d9bc6c9c802f6cbd6e1602cdfa3f77bb3/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/938b575efd1c62bd31f38d46b6b70203465922c6/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/da38fa800e2318368bc3116ecb0bff36a19e6668/output/AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/d07e2dabe022f39f4a3296c8d5c21f9131adc569/output/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/09d7cc5cff59de6d07a495086b61ebc02738ed1c/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/804eef476fb1a6b24f48e7302ae942cb88598b56/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/a4c3a90135dc4b03d178751257dfeb51ecb2c351/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/9be0df6463b0ef36cd5474036f4aab2f4236ec66/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/e55c01638fa22e3fa109759c2051fcdf85787536/output/AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/0c156d1e3e46346ba4b8ac77f870bc9aa428506c/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:design:25.2.0] /Users/HwiRiRic/.android/build-cache/0c5cab0b3728cc31029b26c3840d4994a4957163/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/f117f04cb4845b9d662d5919015691548eab1a06/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/HwiRiRic/.android/build-cache/b99950bcdee4b6fece4b9bdbef89a2f51db62458/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/HwiRiRic/.android/build-cache/a2d5bcc6e453412c10fe61c826a97916462877fd/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/HwiRiRic/.android/build-cache/bd332bcc7086b163f4b0099eb3428c0bc4d37477/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/HwiRiRic/.android/build-cache/fa930b03480988b5ebce0a5fc9ac42f01812c658/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/91a514e738fd1abd6332d4a1433b507f511fa633/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/HwiRiRic/.android/build-cache/963590e199c2d7b358a9a440b7fcf75a9f37cca4/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/HwiRiRic/.android/build-cache/c12f21e391900a8140e1519688a66ee60607a5c7/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/HwiRiRic/.android/build-cache/e0eaed8780ab032ff268ed0088348a8e5f62eb7f/output/AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from /Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/src/main/AndroidManifest.xml:30:9-41
 	android:icon

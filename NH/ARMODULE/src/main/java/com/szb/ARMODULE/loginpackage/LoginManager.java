@@ -4,15 +4,19 @@ package com.szb.ARMODULE.loginpackage;
  * Created by cwh62 on 2017-03-14.
  */
 
+import android.app.Activity;
+import android.app.VoiceInteractor;
 import android.util.Log;
 
+import com.szb.ARMODULE.MainActivity;
 import com.szb.ARMODULE.model.database.Player;
 import com.szb.ARMODULE.model.retrofit.PlayerDTO;
 
 import io.realm.Realm;
+import io.realm.exceptions.RealmMigrationNeededException;
 import io.realm.exceptions.RealmPrimaryKeyConstraintException;
 
-public class LoginManager {
+public class LoginManager  extends Activity{
     private String id;
     private String name;
 
@@ -24,7 +28,8 @@ public class LoginManager {
 
     private int createtime;
 
-    Realm realm;
+    Realm realm = null;
+
 
     private static LoginManager instance = null;
 
@@ -38,6 +43,7 @@ public class LoginManager {
     public LoginManager(){
 
         realm = Realm.getDefaultInstance();
+
         Player player = getPlayer();
         if(player != null){
             setPlayer(player);
