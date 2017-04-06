@@ -5,15 +5,12 @@ package com.szb.ARMODULE.loginpackage;
  */
 
 import android.app.Activity;
-import android.app.VoiceInteractor;
 import android.util.Log;
 
-import com.szb.ARMODULE.MainActivity;
 import com.szb.ARMODULE.model.database.Player;
 import com.szb.ARMODULE.model.retrofit.PlayerDTO;
 
 import io.realm.Realm;
-import io.realm.exceptions.RealmMigrationNeededException;
 import io.realm.exceptions.RealmPrimaryKeyConstraintException;
 
 public class LoginManager  extends Activity{

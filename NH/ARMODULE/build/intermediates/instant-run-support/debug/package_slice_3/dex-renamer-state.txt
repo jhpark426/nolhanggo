@@ -1,4 +1,4 @@
-#Thu Mar 30 15:59:28 KST 2017
-base.0=/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3
+#Thu Apr 06 20:29:00 KST 2017
+base.0=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3
 renamed.0=classes.dex
-file.0=/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex
+file.0=C\:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex

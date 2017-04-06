@@ -39,9 +39,8 @@ public class UnityPlayerActivity extends Activity
 		setContentView(mUnityPlayer);
 		mUnityPlayer.requestFocus();
 	}
+	public void onTouch(String ObjName){
 
-	protected void onTouch ()
-		{
 		loginmanager = LoginManager.getInstance();
 
 		NetworkClient networkClient = NetworkClient.getInstance("http://117.16.197.48:5000");
@@ -73,9 +72,10 @@ public class UnityPlayerActivity extends Activity
 		});
 
 		Log.e("TAG", "login???? : " + loginmanager.toString());
-		//UnityPlayer.UnitySendMessage("Cube","Q","0");
+		Log.e("HIHI: ",ObjName);
 
 	}
+
 	// Quit Unity
 	@Override protected void onDestroy ()
 	{

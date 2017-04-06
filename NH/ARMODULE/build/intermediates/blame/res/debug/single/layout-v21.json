@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
-        "source": "/Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/res/layout-v21/notification_action.xml"
+        "merged": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\cwh62\\.android\\build-cache\\2a249c0985583d2a8565787705b7e3ecc18081b4\\output\\res\\layout-v21\\notification_template_icon_group.xml"
     },
     {
-        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
-        "source": "/Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/res/layout-v21/notification_template_icon_group.xml"
+        "merged": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "C:\\Users\\cwh62\\.android\\build-cache\\2a249c0985583d2a8565787705b7e3ecc18081b4\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
-        "source": "/Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/res/layout-v21/notification_template_custom_big.xml"
+        "merged": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\cwh62\\.android\\build-cache\\2a249c0985583d2a8565787705b7e3ecc18081b4\\output\\res\\layout-v21\\notification_action_tombstone.xml"
     },
     {
-        "merged": "/Users/HwiRiRic/Documents/nolhang/nolhanggo/NH/ARMODULE/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
-        "source": "/Users/HwiRiRic/.android/build-cache/749aa1088d716744e11a737568d8e5ef94f6f7b7/output/res/layout-v21/notification_action_tombstone.xml"
+        "merged": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "C:\\Users\\cwh62\\.android\\build-cache\\2a249c0985583d2a8565787705b7e3ecc18081b4\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]
