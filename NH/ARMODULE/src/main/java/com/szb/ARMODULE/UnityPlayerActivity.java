@@ -5,6 +5,7 @@ import com.szb.ARMODULE.model.retrofit.PlayerDTO;
 import com.szb.ARMODULE.network.NetworkClient;
 import com.unity3d.player.*;
 import android.app.Activity;
+import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.PixelFormat;
 import android.os.Bundle;
@@ -75,12 +76,17 @@ public class UnityPlayerActivity extends Activity
 		Log.e("HIHI: ",ObjName);
 
 	}
+	public void onQuit(){
+		finish();
+	}
 
 	// Quit Unity
 	@Override protected void onDestroy ()
 	{
+
 		mUnityPlayer.quit();
 		super.onDestroy();
+
 	}
 
 	// Pause Unity

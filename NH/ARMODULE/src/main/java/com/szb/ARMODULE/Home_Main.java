@@ -15,8 +15,9 @@ public class Home_Main extends AppCompatActivity {
         setContentView(R.layout.activity_home_main);
     }
     public void onClick(View view){
+        onPause();
         intent = new Intent(this, GameActivity.class);
-        startActivity(intent);
+        startActivity(intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK));
 
     }
 }

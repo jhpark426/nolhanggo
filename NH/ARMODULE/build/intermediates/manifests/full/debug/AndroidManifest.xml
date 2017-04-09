@@ -85,6 +85,8 @@
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.szb.ARMODULE.GameActivity"
+            android:launchMode="singleTask"
+            android:process=":unityplayer"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <activity
             android:name="com.szb.ARMODULE.MainActivity"

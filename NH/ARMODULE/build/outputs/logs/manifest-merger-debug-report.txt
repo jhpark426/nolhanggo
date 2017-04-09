@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:1-75:12
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:2:1-77:12
 	package
 		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:3:5-31
 	android:versionName
@@ -75,7 +75,7 @@ ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\Androi
 	android:name
 		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:20:20-76
 application
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:21:3-68:17
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:21:3-70:17
 MERGED from [com.android.support:design:25.2.0] C:\Users\cwh62\.android\build-cache\4efbd818ecfc0de8535ba83613de55c999c004d9\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:appcompat-v7:25.2.0] C:\Users\cwh62\.android\build-cache\2a249c0985583d2a8565787705b7e3ecc18081b4\output\AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.2.0] C:\Users\cwh62\.android\build-cache\9b304ea5d0dd25519cdc9c0dca14c48586c3934f\output\AndroidManifest.xml:22:5-20
@@ -153,64 +153,68 @@ ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\Androi
 	android:name
 		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:51:9-43
 activity#com.szb.ARMODULE.GameActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:53:5-55:62
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:53:5-57:62
+	android:process
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:55:9-39
+	android:launchMode
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:56:9-40
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:55:9-59
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:57:9-59
 	android:name
 		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:54:9-37
 activity#com.szb.ARMODULE.MainActivity
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:56:5-64:16
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:58:5-66:16
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:58:9-59
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:60:9-59
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:57:9-37
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:59:9-37
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:59:7-63:23
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:61:7-65:23
 action#android.intent.action.MAIN
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:60:9-61
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:62:9-61
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:60:17-58
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:62:17-58
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:62:9-69
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:64:9-69
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:62:19-66
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:64:19-66
 activity#com.szb.ARMODULE.Home_Main
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:65:5-67:16
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:67:5-69:16
 	android:theme
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:66:9-59
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:68:9-59
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:65:15-40
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:67:15-40
 uses-feature#0x00020000
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:69:3-52
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:71:3-52
 	android:glEsVersion
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:69:17-49
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:71:17-49
 uses-feature#android.hardware.camera.autofocus
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:70:3-93
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:3-93
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:70:66-90
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:66-90
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:70:17-65
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:17-65
 uses-feature#android.hardware.camera.front
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:71:3-89
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:3-89
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:71:62-86
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:62-86
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:71:17-61
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:17-61
 uses-feature#android.hardware.touchscreen
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:3-88
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:3-88
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:61-85
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:61-85
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:72:17-60
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:17-60
 uses-feature#android.hardware.touchscreen.multitouch
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:3-99
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:75:3-99
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:72-96
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:75:72-96
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:73:17-71
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:75:17-71
 uses-feature#android.hardware.touchscreen.multitouch.distinct
-ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:3-108
+ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:76:3-108
 	android:required
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:81-105
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:76:81-105
 	android:name
-		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:74:17-80
+		ADDED from C:\Users\cwh62\Documents\GitHub\nolhanggo\NH\ARMODULE\src\main\AndroidManifest.xml:76:17-80

@@ -6,8 +6,9 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import static android.content.Intent.FLAG_ACTIVITY_NEW_TASK;
+
 public class MainActivity extends Activity {
-    private Intent intent;
     Button btnLogin;
 
     @Override
@@ -20,8 +21,8 @@ public class MainActivity extends Activity {
         btnLogin.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
-                intent = new Intent(MainActivity.this, Home_Main.class);
-                startActivity(intent);
+                Intent intent = new Intent(MainActivity.this, Home_Main.class);
+                startActivity(intent.addFlags(FLAG_ACTIVITY_NEW_TASK));
             }
         });
     }
