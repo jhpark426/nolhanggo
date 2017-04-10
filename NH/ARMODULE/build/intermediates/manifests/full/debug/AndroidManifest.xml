@@ -41,6 +41,10 @@
         android:name="android.hardware.touchscreen.multitouch.distinct"
         android:required="false" />
 
+    <meta-data
+        android:name="android.support.VERSION"
+        android:value="26.0.0-alpha1" />
+
     <application
         android:name="com.szb.ARMODULE.RealmInit"
         android:banner="@drawable/app_banner"
@@ -98,7 +102,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.szb.ARMODULE.Home_Main"
+            android:name="com.szb.ARMODULE.Home.Home_Main"
             android:theme="@style/Theme.AppCompat.NoActionBar" >
         </activity>
     </application>

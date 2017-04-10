@@ -9,7 +9,7 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.szb.ARMODULE.Home_Main;
+import com.szb.ARMODULE.Home.Home_Main;
 import com.szb.ARMODULE.R;
 import com.szb.ARMODULE.model.retrofit.PlayerDTO;
 import com.szb.ARMODULE.network.NetworkClient;

@@ -64,7 +64,7 @@
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <activity android:name=".Home_Main"
+    <activity android:name=".Home.Home_Main"
         android:theme="@style/Theme.AppCompat.NoActionBar">
     </activity>
   </application>
