@@ -11,78 +11,130 @@
     <android.support.constraint.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@android:color/background_light"
         tools:layout_editor_absoluteX="8dp"
         tools:layout_editor_absoluteY="0dp">
 
-        <android.support.v4.view.ViewPager
-            android:id="@+id/viewpager"
-            android:layout_width="255dp"
-            android:layout_height="583dp"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            android:visibility="visible"
-            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-            app:layout_constraintHorizontal_bias="0.0"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"></android.support.v4.view.ViewPager>
-
         <android.support.constraint.ConstraintLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintBottom_toTopOf="@+id/constraintLayout"
-            app:layout_constraintHorizontal_bias="0.0"
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="58dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginRight="0dp"
+            android:layout_marginTop="0dp"
+            app:layout_constraintBottom_toTopOf="@+id/top"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.0"
-            android:id="@+id/constraintLayout2">
+            app:layout_constraintVertical_bias="0.9"
+            app:layout_constraintHorizontal_bias="1.0">
 
-            <Button
-                android:id="@+id/bt_menu_open"
-                android:layout_width="40dp"
-                android:layout_height="40dp"
-                android:layout_marginBottom="8dp"
-                android:layout_marginEnd="8dp"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_marginStart="8dp"
-                android:layout_marginTop="8dp"
-                android:visibility="visible"
-                app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0" />
+            <ImageButton
+                android:id="@+id/imageButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@android:drawable/ic_menu_preferences"
+                tools:layout_editor_absoluteY="3dp"
+                tools:layout_editor_absoluteX="356dp" />
+
+            <TextView
+                android:id="@+id/Title"
+                android:layout_width="412dp"
+                android:layout_height="57dp"
+                android:text="NOLHANG"
+                android:textSize="40sp"
+                tools:layout_editor_absoluteX="27dp"
+                tools:layout_editor_absoluteY="16dp" />
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
+            android:id="@+id/top"
             android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="8dp"
-            android:layout_marginLeft="8dp"
-            android:layout_marginRight="8dp"
-            android:layout_marginTop="8dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_height="75dp"
+            android:layout_marginBottom="1dp"
+            android:layout_marginTop="0dp"
+            android:background="@drawable/border_top"
+            app:layout_constraintBottom_toTopOf="@+id/bottom"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="1.0"
-            android:layout_marginStart="8dp"
-            android:layout_marginEnd="8dp"
-            android:id="@+id/constraintLayout"
-            app:layout_constraintHorizontal_bias="0.0">
+            app:layout_constraintVertical_bias="0.099">
+
+            <ImageView
+                android:id="@+id/bt_home"
+                android:layout_width="95dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/selector_home" />
+
+            <ImageView
+                android:id="@+id/bt_rank"
+                android:layout_width="95dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginRight="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/selector_home"
+                android:layout_marginEnd="16dp" />
+
+            <ImageView
+                android:id="@+id/bt_info"
+                android:layout_width="95dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginRight="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/bt_rank"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/selector_home" />
+
+            <ImageView
+                android:id="@+id/bt_quiz"
+                android:layout_width="95dp"
+                android:layout_height="0dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginLeft="0dp"
+                android:layout_marginRight="0dp"
+                android:layout_marginStart="0dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintLeft_toRightOf="@+id/bt_home"
+                app:layout_constraintRight_toLeftOf="@+id/bt_info"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.0"
+                app:srcCompat="@drawable/selector_home" />
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/bottom"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="0dp"
+            android:background="@drawable/border_bottom"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0">
 
             <Button
                 android:id="@+id/AR"
+                style="@android:style/Widget.Holo.Button"
                 android:layout_width="266dp"
                 android:layout_height="72dp"
                 android:layout_marginBottom="8dp"
@@ -92,16 +144,32 @@
                 android:layout_marginStart="8dp"
                 android:layout_marginTop="8dp"
                 android:layout_weight="1"
+                android:background="@android:color/holo_blue_bright"
+                android:backgroundTintMode="src_over"
                 android:onClick="onARClick"
-                android:text="Button"
+                android:text="AR CAMERA"
+                android:textStyle="bold|italic"
                 app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.495"
                 app:layout_constraintLeft_toLeftOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0"
-                app:layout_constraintHorizontal_bias="0.495" />
+                app:layout_constraintVertical_bias="1.0" />
 
         </android.support.constraint.ConstraintLayout>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewpager"
+            android:layout_width="405dp"
+            android:layout_height="443dp"
+            android:layout_margin="0dp"
+            android:layout_marginTop="8dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/bottom"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/top"
+            app:layout_constraintVertical_bias="0.985"></android.support.v4.view.ViewPager>
 
     </android.support.constraint.ConstraintLayout>
 

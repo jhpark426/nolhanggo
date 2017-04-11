@@ -43,7 +43,7 @@
 
     <meta-data
         android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
+        android:value="25.3.1" />
 
     <application
         android:name="com.szb.ARMODULE.RealmInit"
@@ -86,15 +86,15 @@
 
         <activity
             android:name="com.szb.ARMODULE.loginpackage.Login"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.szb.ARMODULE.GameActivity"
             android:launchMode="singleTask"
             android:process=":unityplayer"
-            android:theme="@style/Theme.AppCompat.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
         <activity
             android:name="com.szb.ARMODULE.MainActivity"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -103,7 +103,7 @@
         </activity>
         <activity
             android:name="com.szb.ARMODULE.Home.Home_Main"
-            android:theme="@style/Theme.AppCompat.NoActionBar" >
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         </activity>
 
         <provider
