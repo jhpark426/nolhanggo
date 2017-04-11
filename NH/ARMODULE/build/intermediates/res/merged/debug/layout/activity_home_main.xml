@@ -31,22 +31,14 @@
             app:layout_constraintVertical_bias="0.9"
             app:layout_constraintHorizontal_bias="1.0">
 
-            <ImageButton
-                android:id="@+id/imageButton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:srcCompat="@android:drawable/ic_menu_preferences"
-                tools:layout_editor_absoluteY="3dp"
-                tools:layout_editor_absoluteX="356dp" />
-
             <TextView
                 android:id="@+id/Title"
                 android:layout_width="412dp"
                 android:layout_height="57dp"
                 android:text="NOLHANG"
                 android:textSize="40sp"
-                tools:layout_editor_absoluteX="27dp"
-                tools:layout_editor_absoluteY="16dp" />
+                tools:layout_editor_absoluteX="-1dp"
+                tools:layout_editor_absoluteY="1dp" />
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
@@ -135,8 +127,8 @@
             <Button
                 android:id="@+id/AR"
                 style="@android:style/Widget.Holo.Button"
-                android:layout_width="266dp"
-                android:layout_height="72dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="8dp"
                 android:layout_marginLeft="8dp"
@@ -163,13 +155,13 @@
             android:layout_width="405dp"
             android:layout_height="443dp"
             android:layout_margin="0dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="0dp"
             android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/bottom"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/top"
-            app:layout_constraintVertical_bias="0.985"></android.support.v4.view.ViewPager>
+            app:layout_constraintVertical_bias="1.0"></android.support.v4.view.ViewPager>
 
     </android.support.constraint.ConstraintLayout>
 
