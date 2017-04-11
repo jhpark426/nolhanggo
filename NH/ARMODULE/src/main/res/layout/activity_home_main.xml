@@ -19,29 +19,20 @@
         <android.support.constraint.ConstraintLayout
             android:id="@+id/title"
             android:layout_width="0dp"
-            android:layout_height="58dp"
-            android:layout_marginBottom="1dp"
-            app:layout_constraintBottom_toTopOf="@+id/top"
+            android:layout_height="75dp"
+            android:background="@drawable/title"
+            app:layout_constraintHorizontal_bias="0.0"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.9"
-            app:layout_constraintHorizontal_bias="1.0">
+            android:layout_marginTop="-1dp">
 
-            <TextView
-                android:id="@+id/Title"
-                android:layout_width="412dp"
-                android:layout_height="57dp"
-                android:text="NOLHANG"
-                android:textSize="40sp"
-                tools:layout_editor_absoluteX="0dp"
-                tools:layout_editor_absoluteY="1dp" />
         </android.support.constraint.ConstraintLayout>
 
         <android.support.constraint.ConstraintLayout
             android:id="@+id/top"
-            android:layout_width="0dp"
-            android:layout_height="75dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
             android:layout_marginBottom="1dp"
             android:background="@drawable/border_top"
             app:layout_constraintBottom_toTopOf="@+id/bottom"
@@ -49,55 +40,56 @@
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.099">
+            app:layout_constraintVertical_bias="0.126">
 
             <ImageView
                 android:id="@+id/bt_home"
-                android:layout_width="95dp"
+                android:layout_width="30dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginRight="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toLeftOf="@+id/bt_quiz"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="1.0"
+                app:layout_constraintVertical_bias="0.0"
                 app:srcCompat="@drawable/selector_home" />
 
             <ImageView
                 android:id="@+id/bt_rank"
-                android:layout_width="95dp"
+                android:layout_width="30dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="5dp"
-                android:layout_marginRight="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintVertical_bias="1.0"
-                app:srcCompat="@drawable/selector_home"
-                android:layout_marginEnd="16dp" />
+                app:srcCompat="@drawable/selector_rank" />
 
             <ImageView
                 android:id="@+id/bt_info"
-                android:layout_width="95dp"
+                android:layout_width="30dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginRight="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintRight_toLeftOf="@+id/bt_rank"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/selector_home" />
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/selector_info" />
 
             <ImageView
                 android:id="@+id/bt_quiz"
-                android:layout_width="95dp"
+                android:layout_width="30dp"
                 android:layout_height="0dp"
                 android:layout_marginBottom="5dp"
+                android:layout_marginRight="60dp"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintLeft_toRightOf="@+id/bt_home"
                 app:layout_constraintRight_toLeftOf="@+id/bt_info"
                 app:layout_constraintTop_toTopOf="parent"
-                app:layout_constraintVertical_bias="0.0"
-                app:srcCompat="@drawable/selector_home" />
+                app:layout_constraintVertical_bias="1.0"
+                app:srcCompat="@drawable/selector_quiz" />
 
         </android.support.constraint.ConstraintLayout>
 
@@ -142,11 +134,12 @@
 
         <android.support.v4.view.ViewPager
             android:id="@+id/viewpager"
-            android:layout_width="405dp"
-            android:layout_height="443dp"
+            android:layout_width="408dp"
+            android:layout_height="408dp"
             android:layout_margin="0dp"
             android:visibility="visible"
             app:layout_constraintBottom_toTopOf="@+id/bottom"
+            app:layout_constraintHorizontal_bias="0.333"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             app:layout_constraintTop_toTopOf="@+id/top"
