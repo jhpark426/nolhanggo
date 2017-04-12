@@ -1,7 +1,7 @@
 package com.szb.ARMODULE.quest;
 
 /**
- * Created by HwiRiRic on 2017. 3. 26..
+ * Created by HwiRiRic on 2017. back_3. 26..
  */
 
 import android.content.Context;

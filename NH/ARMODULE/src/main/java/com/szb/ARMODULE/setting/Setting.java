@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import com.szb.ARMODULE.R;
 
 /**
- * Created by HwiRiRic on 2017. 3. 26..
+ * Created by HwiRiRic on 2017. back_3. 26..
  */
 
 public class Setting extends Fragment{
