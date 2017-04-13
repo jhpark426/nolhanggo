@@ -28,31 +28,34 @@ public class Home_Main extends AppCompatActivity {
     Toolbar toolbar;
     DrawerLayout dlDrawer;
     ActionBarDrawerToggle dtToggle;
+    private BackPressCloseHandler backPressCloseHandler;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home_main);
 
+        backPressCloseHandler = new BackPressCloseHandler(this); //뒤로가기 이벤트 핸들러
+
         toolbar = (Toolbar) findViewById(R.id.toolbar);
-        dlDrawer = (DrawerLayout) findViewById(R.id.drawer_layout);
-        setSupportActionBar(toolbar);
+        dlDrawer = (DrawerLayout) findViewById(R.id.drawer_layout); //툴바 및 드로어레이아웃 초기화
+        setSupportActionBar(toolbar);       //툴바를 액션바로 취급
         ActionBar actionBar = getSupportActionBar();
         if (actionBar != null){
-            actionBar.setDisplayHomeAsUpEnabled(true);
-            actionBar.setDisplayShowTitleEnabled(false);
+            actionBar.setDisplayHomeAsUpEnabled(true);    //네비게이션 아이콘 활성화
+            actionBar.setDisplayShowTitleEnabled(false);  //앱 타이틀명 제거
         }
 
         dtToggle = new ActionBarDrawerToggle(this, dlDrawer,R.string.open_drawer,R.string.close_drawer);
-        dlDrawer.addDrawerListener(dtToggle);
+        dlDrawer.addDrawerListener(dtToggle);            //토글 아이콘 및 드로어 리스너
 
-        viewpager = (ViewPager)findViewById(R.id.viewpager);
-        top = (ConstraintLayout) findViewById(R.id.tap_bar);
+        viewpager = (ViewPager)findViewById(R.id.viewpager);  //뷰 페이저 초기화
+        top = (ConstraintLayout) findViewById(R.id.tap_bar);   //tap_bar 레이아웃 초기화
 
         ImageView bt_home = (ImageView)findViewById(R.id.bt_home);
         ImageView bt_quiz = (ImageView)findViewById(R.id.bt_quiz);
         ImageView bt_info = (ImageView)findViewById(R.id.bt_info);
-        ImageView bt_rank = (ImageView)findViewById(R.id.bt_rank);
+        ImageView bt_rank = (ImageView)findViewById(R.id.bt_rank);    //이미지 뷰에 각  레이아웃 할당
 
         viewpager.setAdapter(new pagerAdapter(getSupportFragmentManager()));
         viewpager.setCurrentItem(0);
@@ -64,11 +67,11 @@ public class Home_Main extends AppCompatActivity {
         bt_rank.setOnClickListener(movePageListener);
         bt_rank.setTag(2);
         bt_info.setOnClickListener(movePageListener);
-        bt_info.setTag(3);
+        bt_info.setTag(3);                                       //페이저 리스너에 태그에 할당된 버튼 추가
 
-        bt_home.setSelected(true);
+        bt_home.setSelected(true);  //뷰페이저 초기값 bt_home
 
-        viewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener()
+        viewpager.addOnPageChangeListener(new ViewPager.OnPageChangeListener()   //뷰 페이저 리스너 추가
         {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels)
@@ -90,7 +93,7 @@ public class Home_Main extends AppCompatActivity {
                     }
                     i++;
                 }
-            }
+            }                  //페이지 선택 메소드
 
             @Override
             public void onPageScrollStateChanged(int state)
@@ -107,7 +110,7 @@ public class Home_Main extends AppCompatActivity {
     {
         @Override
         public void onClick(View v)
-        {
+        {   //페이지 이동값 리스너
             int tag = (int) v.getTag();
             int i = 0;
             while(i<4)
@@ -146,7 +149,7 @@ public class Home_Main extends AppCompatActivity {
                 default:
                     return null;
             }
-        }
+        }    //페이저 태그값 처리
 
         @Override
         public int getCount()
@@ -155,6 +158,13 @@ public class Home_Main extends AppCompatActivity {
         }
 
     }
+
+    @Override
+    public void onBackPressed() {
+        backPressCloseHandler.onBackPressed();
+    }
+
+
 
 
     @Override
