@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\cwh62\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
+        "outputFile": "C:\\Users\\KwangHo\\Documents\\GitHub\\nolhanggo\\NH\\ARMODULE\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 117
                 },
                 "from": {
-                    "file": "C:\\Users\\cwh62\\.android\\build-cache\\30535fa162e5037dde8eb4764dd9444ceb4c5dcb\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
+                    "file": "C:\\Users\\KwangHo\\.android\\build-cache\\62f2cf77f834ca606f3ec508f33944fb38e71183\\output\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
